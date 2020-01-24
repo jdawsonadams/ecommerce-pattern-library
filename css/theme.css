@@ -7,8 +7,8 @@
   --color-gradient-top: #ce666c;
   --color-gradient-bottom: #f8e0af;
 
-  --font-primary: "Urbane", sans-serif;
-  --font-secondary: "Bello-pro", sans-serif;
+  --font-primary: urbane, sans-serif;
+  --font-secondary: bello-pro, sans-serif;
 
   html {
     font-family: var(--font-primary);
