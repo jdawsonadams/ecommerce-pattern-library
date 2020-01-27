@@ -5,6 +5,14 @@ patternbot:
   description: |
     Online candy company for candy lovers with a sweet tooth.
   font_url: "https://use.typekit.net/zaf4ypz.css"
+  colors:
+    background: "--color-primary-extralight"
+    accent: "--color-white"
+    patterns:
+      brand.logos: "--color-white"
+      buttons.basic: "--color-white"
+      buttons.ghost: "--color-white"
+      buttons.light: "--color-white"
   rationales:
     typefaces.primary: |
       Urbane was chosen because it's a sans-serif that's modern but still playful, which goes with the theme of the site. It is used in all body copy and any h2s and below.
