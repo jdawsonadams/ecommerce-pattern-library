@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #dc5c7c;
-  --color-primary-light: #f494bc;
+  --color-primary: #ce666c;
+  --color-primary-light: #dc84ac;
   --color-primary-extralight: #e8acb9;
   --color-green: #c4dda1;
   --color-blue: #92c7ca;
@@ -9,7 +9,75 @@
 
   --font-primary: urbane, sans-serif;
   --font-secondary: bello-pro, sans-serif;
+}
 
-  html {
-    font-family: var(--font-primary);
-  }
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  color: #000000;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: var(--font-primary)
+  color: #000000;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: var(--font-primary)
+  color: #000000;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: var(--font-primary)
+  color: #000000;
+  font-weight: 300;
+}
+
+h5 {
+  font-family: var(--font-primary)
+  color: #000000;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: var(--font-primary)
+  color: #000000;
+  font-weight: 300;
+}
+
+a {
+  font-family: var(--font-primary);
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  font-family: var(--font-primary);
+  list-style-type: none;
+  text-decoration-style: none;
+}
+
+ol {
+  font-family: var(--font-primary);
+  list-style-type: none;
+  text-decoration-style: none;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #e8acb9;
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+}
+
+cite {
+  font-family: var(--font-primary);
+}

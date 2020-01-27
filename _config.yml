@@ -1,4 +1,6 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
+  title: "Dino Rescue"
+  description: |
   font_url: "https://use.typekit.net/zaf4ypz.css"
