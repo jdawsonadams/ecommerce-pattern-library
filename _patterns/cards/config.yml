@@ -1,0 +1,16 @@
+title: "Cards"
+description: |
+ Website cards are a way to display important information; such as displaying products, or distinguishing certain sections within a website.
+patterns:
+  product-card:
+    title: "Product Card"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
+  section-banner:
+    title: "Section Banner"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+  main-banner:
+    title: "Main Banner"
+    description: |
+      The light button is specifically used for dark coloured backgrounds.

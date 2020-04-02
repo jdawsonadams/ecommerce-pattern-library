@@ -1,0 +1,7 @@
+.numbers {
+  color: var(--color-accent);
+}
+
+ol:li {
+  color: var(--color-accent);
+}

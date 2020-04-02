@@ -1,0 +1,16 @@
+title: "Navigations"
+description: |
+  The navigations help the user move around the website and view the company's products and different product categories.
+patterns:
+  shop-nav:
+    title: "Shop | Categories"
+    description: |
+      This is an extra navigation on the Shop page for users to browse between different categories. It lets the user know what page they are on. It is to be placed under the page's h1.
+  breadcrumbs:
+    title: "Shop | Breadcrumbs"
+    description: |
+      The breadcrumbs track and show the user where they are in the site's hierarchy. It is to be placed at the top of the "shop" page.
+    page-numbers-nav:
+      title: "Shop | Page Numbers"
+      description: |
+        This navigation is to be placed at the bottom of the page under the product cards. It lets thee user navigate through the different pages of product listings. It will also tell them what page they are on.
