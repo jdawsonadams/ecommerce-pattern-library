@@ -1,24 +1,5 @@
-<div class="card">
-  <div class="pricing gutter-2 pad-t-2 pin-left-top">
-    <p>$2.00</p>
-    <p>/20  grams</p>
-  </div>
-  <a>
-    <svg class="pin-right-top">
-      <use xlink:href="/images/icons.svg#plus"></use>
-    </svg>
-  </a>
-  <img class="img-flex" src="/images/candy/gummy-bear.png" alt="">
-  <h2 class="gutter-2 strong">gummy bears</h2>
-  <p class="gutter-2">flavours include raspberry, orange, and lime</p>
-  {% pattern buttons/basic %}
+<div class="text-center gutter">
+  <img class="img-flex" src="{{include.image}}" alt="white sheet with yellow pillows">
+  <h4 class="push-0">{{include.product}}</h4>
+  <p class="mega">{{include.price}}</p>
 </div>
-
-
-<a class="hover-box block text-center" href="{{include.data.url}}">
-  <div class="embed embed-1by1">
-    <img class="embed-item hover-box-img" src="{{include.data.image}}" alt="">
-  </div>
-  <h2 class="milli push-0 pad-t">{{include.data.title}}</h2>
-  <p class="nano grey">{{include.data.price}}</p>
-</a>
