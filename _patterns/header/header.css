@@ -1,0 +1,23 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.navbar a {
+  color: var(--color-white);
+  display: inline-block;
+}
+
+.navbar a:hover {
+    color: var(--color-darkpink);
+  }
+
+.navbar a:active {
+  color: var(--color-pink)
+}
+
+ul.li {
+  list-style-type: none;
+}
