@@ -1,0 +1,63 @@
+.label-inside label {
+  position: absolute;
+  left: 0.5em;
+  top: 1.1em;
+  transition: all 0.3s ease;
+}
+
+.label-inside input:focus + label,
+.label-inside input:valid + label {
+  top: 0;
+}
+
+input {
+  font-family: var(--font-secondary);
+}
+
+input:not([type="checkbox"]),
+input:not([type="radio"]) {
+  padding-top: 0.8em;
+  height: auto;
+  border-radius: 10px;
+  border-color: var(--color-white);
+}
+
+input:focus {
+  outline: none;
+  padding-left: 1em;
+}
+
+label {
+  font-family: var(--font-primary);
+  padding-left: 1em;
+}
+
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+}
+
+.error-message {
+  display: none;
+  color: var(--color-darkpink);
+}
+
+.error-message-highlighted {
+  background-color: var(--color-accent-coral);
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
+
+div {
+  border-color: var(--color-white);
+  border-radius: 10px;
+
+}
