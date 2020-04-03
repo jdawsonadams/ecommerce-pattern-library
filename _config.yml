@@ -22,3 +22,7 @@ patternbot:
       The primary colour used is the main colour of the gradient that appears on every page of the website. This colour was chosen because it's a vibrant coral/pink that represents the sweetness and colourfulness of candy.
     colors.accent: |
       The accent colours are contrasting colours to the primary pink colour. This is so that the colour and vibrant colour scheme is still followed, by it is still easy to distinguish the contrast between the primary and accent colours.
+
+collections:
+  products:
+    output: true
