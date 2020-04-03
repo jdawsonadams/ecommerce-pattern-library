@@ -6,3 +6,93 @@
 .pricing {
   color: var(--color-white);
 }
+
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.cards li {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: var(--color-accent);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+  align-content: center;
+  display: inline-block;
+}
+
+.cards strong {
+  display: block;
+  margin-bottom: 1rem;
+
+  font-size: 1.125rem;
+}
+
+.cards dl {
+  margin-bottom: 1rem;
+}
+
+.cards dt {
+  display: inline-block;
+  width: 6em;
+  font-style: italic;
+}
+
+.cards dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+}
+
+.cards div {
+  text-align: center;
+}
+
+.cards a {
+  display: inline-block;
+  text-align: center;
+  padding: .5em .75em;
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.cards a:hover {
+  color: #000;
+}
+
+.text {
+  text-align: center;
+}
+
+p {
+  list-style-type: none;
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.details-img {
+  background-color: var(--color-darkpink);
+  border-radius: 10px;
+  margin: 0 .5em 1em;
+}

@@ -1,0 +1,12 @@
+title: "Banners"
+description: |
+ Banners help seperate sections of a website. The main banner is the most important part of a homepage.
+patterns:
+  main-banner:
+    title: "Main Banner"
+    description: |
+      This main banner is to be used on the home page. It is the first section to appear on the page, right under the main navigation. It should not have it's own background, it will just use the background of the site page as it's background.
+  section-banner:
+    title: "Section Banner"
+    description: |
+      These card-like section banners help distinguish sections within the pages of the website.

@@ -1,0 +1,8 @@
+.banner-section {
+  background-color: var(--color-gradient-bottom);
+  border-radius: 40px;
+}
+
+.main {
+  color: var(--color-white);
+}

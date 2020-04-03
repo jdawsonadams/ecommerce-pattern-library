@@ -5,12 +5,8 @@ patterns:
   product-card:
     title: "Product Card"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
-  section-banner:
-    title: "Section Banner"
+      This card displays the general overview of a product, these cards should be placed in the shop page.
+  product-details:
+    title: "Product Details"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
-  main-banner:
-    title: "Main Banner"
-    description: |
-      The light button is specifically used for dark coloured backgrounds.
+      These cards are used once a user clicks a product card. This card takes the user to another page to display more details on the product they just selected. Here the user can add the product to their cart.
